@@ -1,0 +1,431 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cookie', cursive;*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #2c3a42;
+}
+
+
+/* header section*/
+
+header {
+    background-image: url(banner1.jpg);
+    background-size: cover;
+    background-position: top-left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 50px;
+    color: #e9e9ea !important;
+}
+
+.menu div li {
+    padding: 0px 10px;
+}
+
+.menu div li:last-child {
+    padding-right: 0;
+}
+
+.menu div li a {
+    font-weight: 600;
+    font-size: 30px;
+    color: #e9e9ea !important;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.cus-toggler {
+    background-color: #e9e9ea;
+}
+
+
+/*center start*/
+
+.header_last {
+    background-color: #d9dcdd;
+    opacity: 0.9;
+    width: 100%;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+
+.content_br {
+    font-family: 'Cookie', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: #2c3a42;
+    text-transform: uppercase;
+}
+
+.main_heading {
+    font-family: 'Roboto';
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #ad6c12;
+}
+
+.header_last a {
+    font-weight: 700;
+    font-size: 38px;
+    color: #2c3a42;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 9px 30px;
+    margin-top: 20px;
+}
+
+
+/*center end*/
+
+
+/*header section end*/
+
+
+/* slider*/
+
+.slider {
+    background-color: #26363a;
+    padding: 50px 0;
+}
+
+.s1_left h3 {
+    font-weight: 700;
+    font-size: 29px;
+    color: #fff;
+    margin: 50px 0 45px 0;
+}
+
+.s1_left p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+}
+
+
+/*slider end*/
+
+
+/*s3 start*/
+
+.s3 {
+    background-color: #d4d8d9;
+    padding: 50px 0;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2a3b40;
+}
+
+.s3-cust-b h4 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.s3 p {
+    font-size: 18px;
+}
+
+.card {
+    background-color: #d4d8d9;
+    border: none;
+    border-radius: 10px
+}
+
+
+/*section3 end*/
+
+
+/*menu start*/
+
+.menu-plate {
+    background-image: url(banner22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.menu-bg {
+    background-color: #d9dcdd;
+    opacity: .9;
+}
+
+.top_heading {
+    padding: 30px 0;
+}
+
+.main_heading_h3 {
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #2c3a42;
+}
+
+.content_p {
+    font-weight: 600;
+    font-size: 50px;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+.item_price {
+    padding: 38px 0;
+}
+
+.item_price h3 {
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-weight: 700;
+}
+
+
+/*menu section end*/
+
+
+/*section4 start*/
+
+.s4 {
+    background-color: #d9dcdd;
+}
+
+.s4_content {
+    padding: 50px 0;
+}
+
+.s4_content h2 {
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.s4_content p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 38px 0;
+}
+
+.some-link li {
+    padding: 0 25px;
+}
+
+.some-link li a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: #2a3b40;
+    text-decoration: none;
+}
+
+
+/*section4 end*/
+
+
+/*section5 start*/
+
+.s5 {
+    background-image: url(banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.s5_details {
+    background-color: #d9dcdd;
+}
+
+.main_heading_dis {
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #2c3a42;
+}
+
+.sin-new {
+    margin-bottom: 30px;
+}
+
+.chi_pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.chi_pic img {
+    margin: 24px 14px;
+}
+
+.chi_des h4 {
+    font-weight: 700;
+    font-size: 18.5px;
+    text-transform: uppercase;
+}
+
+
+/*section5 end*/
+
+
+/*section6 start*/
+
+.s6 {
+    background-color: #2a3b40;
+    padding: 50px 0;
+}
+
+.book-here h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 105px;
+    color: white;
+}
+
+.h_input {
+    font-weight: 700;
+    color: white;
+}
+
+.cus-f1 {
+    font-weight: 700;
+    width: 80%;
+    height: 28px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.cus-f1:focus {
+    outline: none;
+}
+
+
+/*section6 end*/
+
+
+/*section7 start*/
+
+.s7 {
+    background-image: url(banner3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.s7_details {
+    background-color: #d9dcdd;
+}
+
+
+/*3rd row*/
+
+.card-cust {
+    margin: 60px 0;
+    transition: 1s;
+}
+
+.b_date {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.b_descrp {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.b_parag {
+    font-size: 17px;
+}
+
+.card-cust a {
+    font-weight: 700;
+    font-size: 14px;
+    color: #304751;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 4px solid #ff992b;
+}
+
+
+/*section7 end*/
+
+
+/*quote section start*/
+
+.quote {
+    background-color: #2a3b40;
+    padding: 50px 0;
+}
+
+.qicon i {
+    font-size: 35px;
+    color: white;
+}
+
+.q-content {
+    font-size: 18px;
+    color: white;
+    margin: 30px 0;
+}
+
+.q-name {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 30px 0;
+}
+
+.media-link li {
+    font-size: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 30px;
+}
+
+
+/*quote section end*/
+
+
+/*footer start*/
+
+footer {
+    background-color: #d9dcdd;
+    padding: 50px 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.cus-f-link li a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2c3a42;
+    text-decoration: none;
+}
+
+
+/*footer end*/
